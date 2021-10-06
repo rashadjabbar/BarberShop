@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.yuxariscrol{
+    width: 35px;
+    height: 35px;
+    background-color: #636e72;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    position: fixed; 
+    transition: 0.3s;
+}
+.yuxariscrol i{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.yuxariscrol:hover{
+    background-color: #BF9456;
+    transition: .3s;
+}
+.backgroundimage1{
+    background-image: url("/Assets/img/barber-5194406.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 70%;
+    width: 100%;
+    height: 800px;
+    background-size: cover; 
+}
+.logo img{
+    width: 400px;
+    margin-left: 35%;
+    margin-top: 15%;
+    padding: 10px;
+    transition: .5s;
+    border-radius: 20px;
+}
+.logo img:hover{
+    box-shadow: 1px -10px 10px;
+    transition: .5s;
+}
+
+.logo a{
+    text-decoration: none;
+    color:black;
+}
+.sabitlenme{
+  position: sticky;
+  top: 0;
+}
+.mainmenu{
+    margin: 0 25%;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.mainmenu li{
+    color: black;
+    padding: 15px 20px;
+    font-weight: bold;
+    transition: .5s;
+    border-bottom: 10px solid transparent;
+
+}
+.mainmenu li:hover{
+    background-color: #1dd1a1;
+    color: white;
+    border-bottom: 10px solid black;
+    transition: .5s;
+    cursor: pointer;
+}
+.umumihisse1{
+    width: 100%;
+    height: 750px;
+    box-shadow: 0 0 100px #fbc531;
+}
+.umumihisse1>div{
+    width: 30%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin-top: 100px;
+}
+.ortahisse img{
+    width: 10%;
+}
+.ortahisse h1{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.ortahisse p{
+    margin-top: 20px;
+    
+}
+.imza{
+    width: 1500px;
+    position: relative;
+    top: 60px;
+    right: 520px;
+}
+.backgroundimage2{
+    background-image: url("/Assets/img/barber-shop-5225310.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 70%;
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+ }
+ .backgroundimage2>div{
+    width: 50%;
+    text-align: center;
+    float: left;
+    
+ }
+ .saghisse2{
+     width: 50%;
+     height: 740px;
+     background-color: #F9F9F9;
+     box-shadow: 0 0 2px; 
+ }
+ 
+ .howwedo{
+     font-size: 70px;
+     color: white;
+     margin-top: 50%;
+     font-weight: bold;
+     letter-spacing: 5px;
+     word-spacing: 5px;
+     text-shadow: 0 0 5px  #fbc531;
+ }
+ .icons{
+     width: 5%;
+     display: inline-block;
+     margin-right: 70%;
+ }
+ .yazilar{
+     display: inline-block;
+     padding-bottom: 5%;
+     text-align: left;
+     margin-right: 5%;
+     margin-left: 20%;
+ }
+
+ .saghisse2{
+     padding-top: 4%;
+ } 
+ .hisse3{
+     width: 100%;
+     height: 700px;
+     background-color: white;
+ }
+ .hisse3>div{
+     width: 30%;
+     float: left;
+     margin-top: 5%;
+
+   
+ }
+ .hisse3 div img{
+     width: 70%;
+    border-radius: 100%;
+    border: 5px double white;
+    margin-left: 30%;
+    box-shadow: 0 0 3px;
+ }
+ .hisse3 div p{
+     width: 90%;
+     text-align: center;
+     margin-top: 40px;
+     margin-left: 100px;
+ }
+ .hisse3 div a{
+     text-decoration: none;
+     color: black;
+ }
+ .hisse3 div a:hover{
+     color: burlywood;
+     cursor: pointer;
+ }
+
+ .backgroundimage3{
+    background-image: url("/Assets/img/barbershop-4484297.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 70%;
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+ }
+ .wallet{
+     width: 5%;
+     padding-top: 10%;
+     margin-left: 48%;
+ }
+ .odenis{
+     color: white;
+     font-weight: bold;
+     margin-left: 45%;
+     padding-top: 2%;
+     text-shadow: 0 0 5px black;
+ }
+ .kesimqiymetleri{
+     width: 80%;
+     background-color: black;
+     margin-left: 10%;
+     margin-right: 10%;
+     margin-top: 7%;
+     padding-bottom: 5%;
+ }
+.qiymetler{
+    display: flex;
+}
+.qiymetler div{
+    flex-wrap: wrap;
+    display: inline-block;
+    color: white;
+    width: 90%;
+    padding-bottom: 5%;
+    margin: 4% 0 0 2%;
+}
+.qiymetler div h3{
+    color: sandybrown;
+}
+.qiymetler div p{
+    opacity: 80%;
+}
+.button input{
+    width: 80%;
+    height: 50px; 
+    background-color: sandybrown;
+    margin-left: 10%;
+    word-spacing: 7px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    transition: .7s;
+    
+}
+.button input:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: .7s;
+    cursor: pointer;
+}
+.hisse4{
+    width: 100%;
+    height: 900px;
+}
+.daraq2{
+    width: 6%;
+    margin-left: 47%;
+    margin-top: 40%;
+}
+.daraq2 h1{
+    margin-top: 30%;
+    position: relative;
+    right: 90px;
+   letter-spacing: 3px;
+   font-size: 40px;
+}
+.mallar{
+    margin-left: 5%;
+}
+.malnovu{
+    width: 280px;
+    height: 380px;
+    float: left;
+    border: 1px solid #b2bec3;
+    border-radius: 5px;
+    margin: 20px; 
+    margin-top: 5%;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.malnovu:hover{
+    box-shadow: 0 0 10px black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.malimg img{
+    width: 100%;
+}
+.malqiymetleri{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.malqiymetleri h3{
+    color: #f0932b;
+}
+.malqiymetleri:hover{
+    background-color: #535c68;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.moreproduct h1{
+    display: inline-block;
+    background-color: #BF9456;
+    margin-left: 43%;
+    margin-top: 5%;
+    padding: 1%;
+    width: 290px;
+    text-align: center;
+    transition: 0.5s;
+}
+.moreproduct h1:hover{
+    background-color: black;
+    color: #BF9456;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.backgroundimage4{
+    background-image: url("/Assets/img/robin-karlin-image-03.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 70%;
+    width: 100%;
+    height: 600px;
+    background-size: cover; 
+}
+.ulduzlar i{
+    font-size: 80px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+.bashliqmetn h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2%;
+    color: white;
+    text-shadow: 0 0 5px black;
+    font-weight: bold;
+}
+.stat i{
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 1px 0 black;
+    
+}
+.stat{
+    text-align: center;
+    margin: 0 30%;
+    margin-top: 5%;
+
+}
+.stat span{
+    color: #feca57;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 black;
+}
+.sonhisse{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+.team{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #BF9456;
+    font-size: 50px;
+    margin-top: 6%;
+}
+.sonhisse h1{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1%;
+    font-weight: bold;
+    text-shadow: 1px -1px 1px #BF9456;
+}
+.sonhisse p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+.barbers>div{
+    margin-top: 2%;
+    margin-left: 6%;
+    float: left;
+    width: 25%;
+    height: 450px;
+    background-color: black;
+    
+}
+.barbers div img:hover{
+    box-shadow: 0 0 20px black;
+    transition: 0.5s;
+cursor: pointer;
+}
+.berberler img{
+    width: 100%;
+    transition: 0.5s;
+}
+.berberler>h3{
+    font-size: 30px;
+    margin-top: 4%;
+    width: 100%;
+    text-align: center;
+    transition: 1s;
+    line-height: 150%; 
+    border: 1px dotted transparent;
+   
+    
+}
+.berberler h3:hover{
+   background-color: cadetblue;
+    line-height: 150%; 
+    color: white;
+    transition: 1s;
+    border: 1px dotted black;
+    cursor: pointer;
+}
+
+.vezife{
+    font-size: 20px;
+    width: 100%;
+    color: #BF9456;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2%;
+}
+.esasfooter>div{
+    float: left;
+    width: 50%;
+    height: 650px;
+}
+.umumiinfo{
+    background-color: #F9F9F9;
+}
+.esasbina{
+    margin-left: 10%;
+    margin-top: 10%;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #444;
+}
+.infolar>div{
+    float: left;
+    width: 35%;
+    height: 100px;
+}
+.infolar{
+    margin-top: 5%;
+}
+.unvan{
+    margin-left: 10%;
+    font-size: 18px;
+}
+.elaqe{
+    margin-left: 10%;
+    font-size: 18px;
+}
+.form>input{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 25%;
+    width: 600px;
+    margin-bottom: 1%;
+    height: 40px;
+    border-radius: 30px;
+    outline: none;
+    border-bottom: 2px;
+    border-color: black;
+    
+}
+.form{
+    margin-top: 5%;
+}
+.gonder{
+    width: 200px;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 15%;
+    background-color: #BF9456;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 20px;
+
+}
+.gonder h3{
+    padding: 10% 5%;
+}
+.gonder:hover{
+    background-color: black;
+    color: #BF9456;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.footer2{
+    width: 100%;
+    height: 1400px;
+    background-color: black;
+}
+.footerlogo img{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.sosialmedia div{
+    font-size: 20px;
+    color: white;
+    float: left;
+    margin-left: 4%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.5s;
+
+}
+.sosialmedia{
+    margin-left: 36%;
+}
+.sosialmedia div:hover{
+    color: black;
+    background-color: blueviolet;
+    border-radius: 50%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.creator{
+    color: #dfe6e9;
+    margin-top: 7%;
+    margin-left: 35%;
+    letter-spacing: 6px;
+    word-spacing: 8px;
+    transition: 0.5s;
+
+}
+.creator:hover{
+    color: #be2edd;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.forphone{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(148, 4, 1, 1) 0%, rgba(237, 134, 38, 1) 100%);
+    display: flex;
+    justify-content: center;
+    z-index: -1000;
+    opacity: 0;
+}
+
+.forphone h1{
+    margin-top: 20%;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.forphone p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    opacity: .7;
+}
+
+.forphone p:nth-child(3){
+    margin-top: 10%;
+    font-size: 13px;
+    opacity: 1;
+    color: #dcdde1;
+}
+
+
+.forphonesingle{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: radial-gradient(circle, rgba(148, 4, 1, 1) 0%, rgba(237, 134, 38, 1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.forphonesingle h1{
+    margin-top: 20%;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.forphonesingle p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    opacity: .7;
+
+}
+
+.forphonesingle p:nth-child(3){
+    margin-top: 10%;
+    font-size: 13px;
+    opacity: 1;
+    color: #dcdde1;
+    font-family: Montserrat, sans-serif;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    header, main, footer{
+        display: none;
+    }
+    .forphone{
+        z-index: 1000;
+        opacity: 1;
+    }
+    .forphone h1{
+        margin-top: 60%;
+        padding: 0 3%;
+    }
+
+    .forphonesingle{
+        z-index: 1000;
+        opacity: 1;
+    }
+    .forphonesingle h1{
+        margin-top: 60%;
+        padding: 0 3%;
+    }
+  }
