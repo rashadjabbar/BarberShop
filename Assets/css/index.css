@@ -28,7 +28,7 @@ html{
     transition: .3s;
 }
 .backgroundimage1{
-    background-image: url("/Assets/img/barber-5194406.jpg");
+    background-image: url("../../Assets/img/barber-5194406.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: 70%;
@@ -109,7 +109,7 @@ html{
     right: 520px;
 }
 .backgroundimage2{
-    background-image: url("/Assets/img/barber-shop-5225310.jpg");
+    background-image: url("../../Assets/img/barber-shop-5225310.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: 70%;
@@ -190,7 +190,7 @@ html{
  }
 
  .backgroundimage3{
-    background-image: url("/Assets/img/barbershop-4484297.jpg");
+    background-image: url("../../Assets/img/barbershop-4484297.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: 70%;
@@ -327,7 +327,7 @@ html{
     cursor: pointer;
 }
 .backgroundimage4{
-    background-image: url("/Assets/img/robin-karlin-image-03.jpg");
+    background-image: url("../../Assets/img/robin-karlin-image-03.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position-y: 70%;
